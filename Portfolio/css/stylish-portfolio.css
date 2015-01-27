@@ -17,22 +17,32 @@ body {
 }
 
 header{
-    font-family: 'Lato', sans-serif;
+    
     font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 
+}
+
+h3{
+    color:#ed4e6e;
 }
 
 h1 {
     display: inline;
     font-size: 100px
 }
+.heading1{
+    font-weight: 900 !important;
+}
+.heading2{
+   font-weight: 100 !important;
+
+}
+
 
 .first{
     font-size: 200px;
     margin-left: 10px;
-
-
-
 
 }
 .second{
@@ -143,6 +153,7 @@ hr.small {
     display: block;
     text-decoration: none;
     color: #999;
+    color:#fff; /*button colors*/
 }
 
 .sidebar-nav li a:hover {
